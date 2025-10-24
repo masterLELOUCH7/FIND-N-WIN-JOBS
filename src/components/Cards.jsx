@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { Bookmark } from "lucide-react";
 
 export default function Cards({ logo, name, posted, role, jobType, level, salary, location }) {
@@ -29,9 +29,13 @@ export default function Cards({ logo, name, posted, role, jobType, level, salary
           <h3 className="font-semibold text-gray-900">{salary}</h3>
           <p className="text-xs text-gray-500">{location}</p>
         </div>
-        <button className="bg-gradient-to-r from-teal-600 to-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:scale-105 transition">
+
+        <Link
+          to={`/apply/${name}`}
+          className="bg-gradient-to-r from-teal-600 to-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:scale-105 transition"
+        >
           Apply
-        </button>
+        </Link>
       </div>
 
     </div>

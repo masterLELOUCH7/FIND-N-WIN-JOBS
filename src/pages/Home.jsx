@@ -30,6 +30,7 @@ export default function Home() {
           className="max-w-full rounded-xl shadow-lg"
         />
       </div>
+      
 
     </div>
   );

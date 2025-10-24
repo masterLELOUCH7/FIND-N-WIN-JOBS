@@ -8,12 +8,12 @@ export default function Nav() {
         
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="https://cdni.iconscout.com/illustration/premium/thumb/male-frontend-developer-illustration-svg-download-png-6817791.png"
+            src="./src/assets/jet.svg"
             alt="Logo"
             className="w-14 h-14 object-contain"
           />
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 text-transparent bg-clip-text">
-            Job Portal
+            FIND N WIN JOBS
           </h1>
         </Link>
 
