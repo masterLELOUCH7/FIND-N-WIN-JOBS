@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Nav() {
   return (
     <nav className="bg-white shadow-md py-4 px-8 sticky top-0 z-50">
@@ -8,7 +9,7 @@ export default function Nav() {
         
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="./src/assets/jet.svg"
+            src="./jet.svg"
             alt="Logo"
             className="w-14 h-14 object-contain"
           />
